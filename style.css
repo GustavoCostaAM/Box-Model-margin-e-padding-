@@ -117,16 +117,3 @@ hr{
 #iniciativaBlocoTexto > p{
     font-family: sans-serif;
 }
-
-
-/* section Gif */
-#sectionGif{
-    height: 30vh;
-    display: flex;
-    justify-content: center;
-}
-#gif{
-    height: 25vh;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-}
