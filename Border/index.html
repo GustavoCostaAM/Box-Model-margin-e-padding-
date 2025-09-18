@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/default.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Border</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#material">Power Point</a></li>
+                <li><a href="#Padding">Padding</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="divMain">
+            <h1>Border</h1>
+
+            <p>EXPLICACAO Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, modi dolorem a culpa ad
+                libero nisi. Voluptatem quos corrupti, odit molestias ratione dolorum, adipisci et praesentium
+                consectetur sint blanditiis. Odio corporis incidunt, necessitatibus fugiat quaerat aperiam laboriosam
+                nihil consequatur repellat nisi odit culpa error praesentium? Animi harum omnis explicabo, inventore ab
+                tenetur similique id praesentium totam. Natus explicabo eligendi sunt omnis voluptatibus voluptatum
+                voluptas beatae vero quia velit nam illo totam impedit, aut error fuga nisi molestias provident
+                consectetur iure quibusdam ullam? Magnam illum minus nobis nesciunt corporis eaque expedita numquam
+                provident vitae deleniti dolor, velit dolores natus consequatur necessitatibus.</p>
+
+            <h2>Estilize sua Borda!</h2>
+
+            <div id="blocoManipulacao">
+                <p>Conteudo</p>
+            </div>
+
+
+            <table id="tabelaInput">
+                <!-- Linha 1 -->
+                <tr>
+                    <!-- cabeçalhos da tabela -->
+                    <th>Border-Style</th>
+                    <th>Border-Width</th>
+                    <th>Border-Color</th>
+                    <th>Border-Radius</th>
+                </tr>
+
+                <!-- Linha 2 -->
+                <tr>
+
+                    <!-- Border-Style -->
+                    <td>
+                        <select name="Border-Style" id="Border-Style">
+                            <option>--selecione--</option>
+                            <option value="solid">solid</option>
+                            <option value="dashed">dashed</option>
+                            <option value="dotted">dotted</option>
+                            <option value="double">double</option>
+                            <option value="groove">groove</option>
+                            <option value="ridge">ridge</option>
+                            <option value="inset">inset</option>
+                            <option value="outset">outset</option>
+                            <option value="hidden">hidden</option>
+                        </select>
+                    </td>
+
+                    <!-- Border-width -->
+                    <td>
+                        <input type="range" name="Border-Width" id="Border-Width" min="0px" max="50">
+                    </td>
+
+                    <!-- Border-Color -->
+                    <td>
+                        <input type="color" name="Border-Color" id="Border-Color">
+                    </td>
+
+                    <!-- Border-Radius -->
+                    <td>
+                        <input type="range" name="Border-Radius" min="0" max="50" id="Border-Radius">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Todos direitos reservados &reg;</p>
+    </footer>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>
