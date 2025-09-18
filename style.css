@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FAFAFA;
+}
+
+/* Editando Section do Banner */
+
+#banner > *{
+    color: white;
+}
+#banner{
+    display: flex;
+    background-color: #242429;
+    justify-content: space-around;
+
+    height: 70vh;
+}
+#textoBanner{
+    align-self: center;
+}
+#spanInstituto{
+    color: #001EC6;
+}
+#LogoBanner{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+/* Editando Main de Materiais */
+main > *{
+    color: black;
+}
+main{
+    padding-top: 2vh;
+    background-color: #FAFAFA;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 4vh;
+}
+
+#materiais{
+    width: 80vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vh;
+}
+
+.material{
+    padding-top: 1vh;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-bottom: 1vh;
+
+    width: 20vw;
+
+    background-color: #FFFFFF;
+
+    text-align: center;
+    border-radius: 10px;
+    height: 10vh;
+
+    outline: auto black;
+}
+.material > p > a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.material > h1{
+    font-family: sans-serif;
+    font-size: 2em;
+
+    margin-top: 1vh;
+}
+.material > p {
+    margin-top: 1vh;
+}
+
+/* editando a linha <hr> */
+hr{
+    margin-top: 5vh;
+    width: 80vw;
+    margin-left: 10vw;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: #242429;
+}
+
+
+/* mudando sec iniciativa */
+#iniciativa{
+    display: flex;
+    background-color: #FAFAFA;
+    justify-content: space-evenly;
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 6vh;
+    height: 50vh;
+}
+
+#iniciativaBlocoTexto{
+    width: 30vw;
+}
+
+#iniciativaBlocoTexto > h1{
+    text-align: center;
+}
+#iniciativaBlocoTexto > p{
+    font-family: sans-serif;
+}
+

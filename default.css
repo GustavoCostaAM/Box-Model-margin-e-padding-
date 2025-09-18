@@ -5,7 +5,7 @@
 
 /* header */
 header{
-    background-color: lightblue;
+    background-color: #001EC5;
 }
 header > nav{
     padding-top: 1vw;
@@ -19,7 +19,7 @@ header > nav > ul{
 }
 header > nav > ul > li > a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 /* Main */
