@@ -59,8 +59,12 @@ footer {
     box-shadow: 0 3px 10px rgba(0,0,0,0.2);
 }
 
+main{
+    height:700px;
+}
+
 #container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 30px auto;
     padding: 20px;
     background: #2f3542;
@@ -143,7 +147,7 @@ footer {
     appearance: none;
     height: 6px;
     border-radius: 5px;
-    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    background: linear-gradient(90deg, #0062ff, #c723fd);
     outline: none;
     cursor: pointer;
 }
@@ -152,9 +156,9 @@ footer {
     appearance: none;
     width: 16px;
     height: 16px;
-    background: #fff;
+    background: linear-gradient(90deg, #0062ff, #c723fd);
     border-radius: 50%;
-    border: 2px solid #0072ff;
+    border: 2px solid #ffffff;
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
     cursor: pointer;
 }
@@ -164,13 +168,11 @@ footer {
     text-align: center;
     padding: 12px;
     color: rgb(255, 255, 255);
-    font-weight: bold;
     box-shadow: 0 -3px 10px rgba(0,0,0,0.2);
-
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 98.3%;
 }
 
 @keyframes bordaAnimada {
@@ -197,7 +199,7 @@ footer {
     background: linear-gradient(45deg, red, orange, yellow, lime, cyan, blue, magenta, red);
     background-size: 400% 400%;
     animation: bordaAnimada 5s linear infinite;
-
+    
     -webkit-mask: 
         linear-gradient(#fff 0 0) content-box, 
         linear-gradient(#fff 0 0);
@@ -205,3 +207,4 @@ footer {
             mask-composite: exclude;
     z-index: -1;
 }
+
