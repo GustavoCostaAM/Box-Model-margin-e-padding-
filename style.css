@@ -112,7 +112,8 @@ hr{
 }
 
 #iniciativaBlocoTexto > h1{
-    text-align: center;
+    text-align: left;
+    font-family: sans-serif;
 }
 #iniciativaBlocoTexto > p{
     font-family: sans-serif;
