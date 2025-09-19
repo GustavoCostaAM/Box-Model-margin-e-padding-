@@ -1,62 +1,69 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Padding</title>
+    <title>Painel de Manipulação</title>
     <link rel="stylesheet" href="padding.css">
 </head>
+
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">Power Point</a></li>
-                <li><a href="border.html">Border</a></li>
-            </ul>
-        </nav>
+        <div class="header-content">
+            <h1>Manipulação de Padding</h1>
+            <nav>
+                <ul>
+                    <li><a target="_blank" href="/Border/border.html">Border</a></li>
+                    <li><a target="_blank"
+                            href="https://institutogerminare-my.sharepoint.com/:p:/g/personal/lorenzo_oliveira_germinare_org_br/EefRxSZo7ddJq3jT7cKulrABxOmjPgnG5teQbaEal_RzrQ?e=M8EFjn">Power
+                            point</a></li>
+                    <li><a target="_blank" href="">Home</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section class="box" id="box">
-            <h2>Padding</h2>
-            <h4>Conteudo</h4>
-            <p>
-                <strong>EXPLICACAO</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-+                Minima, modi dolorem a culpa ad libero nisi. Voluptatem quos corrupti, 
-+                odit molestias ratione dolorum, adipisci et praesentium consectetur 
-+                sunt blanditiis. Odio corporis incidunt, necessitatibus fugiat quaerat 
-+                aperiam laboriosam nihil consequuntur repellat nisi odit culpa error 
-+                praesentium? Animi harum omnis explicabo, inventore ab tenetur similique 
-+                id praesentium totam. 
-            </p>
+        <div id="container">
+            <h2>Exemplo de Manipulação</h2>
+            <p>Mova os controles abaixo para alterar o <strong>padding</strong> do bloco.</p>
 
-            <h3>Estilize seu Padding!</h3>
+            <div id="blocoManipulacao">
+                BLOCO
+            </div>
 
             <div class="controls">
-                <label><b>Padding-Top</b>
-                    <input type="range" id="paddingTop" min="0" max="100" value="20">
+                <label>
+                    Padding Top:
+                    <input type="range" min="0" max="100" value="20" id="paddingTop">
+                    <span id="valTop">20px</span>
                 </label>
-
-                <label><b>Padding-Right</b>
-                    <input type="range" id="paddingRight" min="0" max="100" value="20">
+                <label>
+                    Padding Right:
+                    <input type="range" min="0" max="100" value="20" id="paddingRight">
+                    <span id="valRight">20px</span>
                 </label>
-
-                <label><b>Padding-Bottom</b>
-                    <input type="range" id="paddingBottom" min="0" max="100" value="20">
+                <label>
+                    Padding Bottom:
+                    <input type="range" min="0" max="100" value="20" id="paddingBottom">
+                    <span id="valBottom">20px</span>
                 </label>
-
-                <label><b>Padding-Left</b>
-                    <input type="range" id="paddingLeft" min="0" max="100" value="20">
+                <label>
+                    Padding Left:
+                    <input type="range" min="0" max="100" value="20" id="paddingLeft">
+                    <span id="valLeft">20px</span>
                 </label>
             </div>
-        </section>
+        </div>
     </main>
 
     <footer>
-        <p>© Todos direitos reservados ®</p>
+        <p>&copy; 2025 Instituto J&F. Todos os direitos reservados.</p>
+        <p>Projeto educacional desenvolvido pelos alunos do Germinare Tech.</p>
     </footer>
 
     <script src="padding.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Manipulação de Borda</title>
+    <link rel="stylesheet" href="border.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Manipulação de Borda</h1>
+            <nav>
+                <ul>
+                    <li><a target="_blank" href="/padding/padding.html">Padding</a></li>
+                    <li><a target="_blank" href="https://institutogerminare-my.sharepoint.com/:p:/g/personal/lorenzo_oliveira_germinare_org_br/EefRxSZo7ddJq3jT7cKulrABxOmjPgnG5teQbaEal_RzrQ?e=M8EFjn">Power point</a></li>
+                    <li><a target="_blank" href="/">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="container">
+        <h2>Exemplo de Manipulação</h2>
+        <p>Mova os controles abaixo para alterar a <strong>borda</strong> do bloco.</p>
+
+        <div id="blocoManipulacao">
+            BLOCO
+        </div>
+        
+        <div class="controls-group">
+            <h3>Largura da Borda</h3>
+            <div class="controls">
+                <label>
+                    Top:
+                    <input type="range" min="0" max="20" value="5" id="borderTop">
+                    <span id="valBorderTop">5px</span>
+                </label>
+                <label>
+                    Right:
+                    <input type="range" min="0" max="20" value="5" id="borderRight">
+                    <span id="valBorderRight">5px</span>
+                </label>
+                <label>
+                    Bottom:
+                    <input type="range" min="0" max="20" value="5" id="borderBottom">
+                    <span id="valBorderBottom">5px</span>
+                </label>
+                <label>
+                    Left:
+                    <input type="range" min="0" max="20" value="5" id="borderLeft">
+                    <span id="valBorderLeft">5px</span>
+                </label>
+            </div>
+        </div>
+
+        <div class="controls-group">
+            <h3>Arredondamento da Borda</h3>
+            <div class="controls">
+                <label>
+                    Top Left:
+                    <input type="range" min="0" max="100" value="10" id="borderRadiusTopLeft">
+                    <span id="valBorderRadiusTopLeft">10px</span>
+                </label>
+                <label>
+                    Top Right:
+                    <input type="range" min="0" max="100" value="10" id="borderRadiusTopRight">
+                    <span id="valBorderRadiusTopRight">10px</span>
+                </label>
+                <label>
+                    Bottom Left:
+                    <input type="range" min="0" max="100" value="10" id="borderRadiusBottomLeft">
+                    <span id="valBorderRadiusBottomLeft">10px</span>
+                </label>
+                <label>
+                    Bottom Right:
+                    <input type="range" min="0" max="100" value="10" id="borderRadiusBottomRight">
+                    <span id="valBorderRadiusBottomRight">10px</span>
+                </label>
+            </div>
+        </div>
+
+        <div class="controls-group">
+            <h3>Outras Propriedades</h3>
+            <div class="controls">
+                <label>
+                    Estilo da Borda:
+                    <select id="borderStyle">
+                        <option value="solid">Sólida</option>
+                        <option value="dashed">Tracejada</option>
+                        <option value="dotted">Pontilhada</option>
+                        <option value="double">Dupla</option>
+                        <option value="groove">Relevo (Groove)</option>
+                        <option value="ridge">Relevo (Ridge)</option>
+                        <option value="inset">Embutida (Inset)</option>
+                        <option value="outset">Saliente (Outset)</option>
+                    </select>
+                </label>
+
+                <label>
+                    Cor da Borda:
+                    <input type="color" id="borderColor" value="#FFFFFF">
+                </label>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Todos direitos reservados &reg;</p>
+    </footer>
+
+    <script src="border.js"></script>
+</body>
+
+</html>
